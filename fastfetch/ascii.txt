@@ -1,0 +1,18 @@
+$8                                ..,
+$9                    ....,,:;+ccllll
+$7      ...,,+:;  cllllllllllllllllll
+$6,cclllllllllll  lllllllllllllllllll
+$5llllllllllllll  lllllllllllllllllll
+$4llllllllllllll  lllllllllllllllllll
+$3llllllllllllll  lllllllllllllllllll
+$2llllllllllllll  lllllllllllllllllll
+$1llllllllllllll  lllllllllllllllllll
+$1
+$2llllllllllllll  lllllllllllllllllll
+$3llllllllllllll  lllllllllllllllllll
+$4llllllllllllll  lllllllllllllllllll
+$5llllllllllllll  lllllllllllllllllll
+$6llllllllllllll  lllllllllllllllllll
+$7`cclllllllllll  lllllllllllllllllll
+$8      ``\*:;  :ccllllllllllllllllll
+$9                    ````''*::cll
