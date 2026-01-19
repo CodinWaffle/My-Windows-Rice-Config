@@ -279,7 +279,7 @@ widgets:
     options:
       label: "<span>\udb83\ude09</span>"
       # Example path to folder with images. Can be a single string or a list of strings.
-      image_path: "C:\\Users\\josem\\OneDrive\\Pictures\\Wallpapers"
+      image_path: "Enter The Image Path Here"
       change_automatically: false
       update_interval: 60
       gallery:
