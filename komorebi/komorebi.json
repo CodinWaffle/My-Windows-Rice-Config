@@ -22,10 +22,10 @@
   "transparency_alpha": 220,
   "animation": {
     "enabled":true,
-    "duration":200,
+    "duration":80,
     "fps": 60,
     "style":{
-      "movement":"EaseOutExpo",
+      "movement":"Linear",
       "transparency":"Linear"
     }
   },
