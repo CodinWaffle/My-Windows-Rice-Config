@@ -1,50 +1,30 @@
 {
-  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.39/schema.json",
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.37/schema.json",
   "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
-  "window_hiding_behaviour": "Minimize",
+  "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
-  "default_workspace_padding": 3,
-  "default_container_padding": 3,
+  "transparency": false,
+  "transparency_alpha": 250,
+  "default_workspace_padding": 10,
+  "default_container_padding": 4,
   "border": true,
-  "border_implementation": "Windows",
-  "border_style": "System",
-  "border_width": 0,
-  "border_offset": 1,
-  "border_colours": {
-    "single": "#89b4fa",
-    "stack":"#00ff99",
-    "floating":"#00ff99",
-    "monocle":"#ff5555",
-    "unfocused":"#303030"
-  },
-  "mouse_follows_focus": true,
-  "transparency": true,
-  "transparency_alpha": 220,
+  "border_width": 6,
+  "border_offset": -1,
   "animation": {
-    "enabled":true,
-    "duration":80,
+    "enabled": true,
+    "duration": 200,
     "fps": 60,
-    "style":{
-      "movement":"Linear",
-      "transparency":"Linear"
-    }
-  },
+    "style": "EaseOutBack"
+},
   "theme": {
-    "palette": "Base16",
-    "name": "Ashes",
-    "unfocused_border": "Base03",
-    "bar_accent": "Base0D"
-  },
-  "stackbar": {
-    "height": 24,
-    "mode": "Never",
-    "label": "Title",
-    "tabs": {
-      "width": 200,
-      "font_size": 16
-    }
+    "palette": "Catppuccin",
+    "name": "Frappe",
+    "unfocused_border": "Sapphire",
+    "bar_accent": "Rosewater",
+    "single_border": "Flamingo"
   },
   "monitors": [
+
     {
       "workspaces": [
         {
@@ -58,23 +38,25 @@
         {
           "name": "III",
           "layout": "HorizontalStack"
-        },
-        {
-          "name": "IV",
-          "layout": "UltrawideVerticalStack"
-        },
-        {
-          "name": "V",
-          "layout": "Rows"
-        },
-        {
-          "name": "VI",
-          "layout": "Grid"
-        },
-        {
-          "name": "VII",
-          "layout": "RightMainVerticalStack"
         }
+      ]
+    },
+
+    {
+      "workspaces": [
+        {
+          "name": "Home",
+          "layout": "BSP"
+        },
+        {
+          "name": "2",
+          "layout": "VerticalStack"
+        },
+        {
+          "name": "3",
+          "layout": "HorizontalStack"
+        }
+	
       ]
     }
   ]
