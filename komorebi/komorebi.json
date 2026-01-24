@@ -12,9 +12,9 @@
   "border_offset": -1,
   "animation": {
     "enabled": true,
-    "duration": 200,
+    "duration": 80,
     "fps": 60,
-    "style": "EaseOutBack"
+    "style": "Linear"
 },
   "theme": {
     "palette": "Catppuccin",
